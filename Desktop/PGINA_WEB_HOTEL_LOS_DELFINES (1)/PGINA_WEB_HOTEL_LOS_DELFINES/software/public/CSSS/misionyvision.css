@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*trabajar con el body*/
+body{
+
+	
+
+        background: #036;
+        padding: 20px;
+
+
+}
+
+
+.grup-slock{
+
+    margin-top: 35px;
+}
+
+
+
+
+.slock_1{
+
+    max-width: 530px;
+    min-height: 240px;
+    background-color: aqua;
+    border-radius:   50px 50px 50px 50px;
+    
+}
+
+.slock_1 h1 {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slock_1  p {
+
+    display: flex;
+    text-align: center;
+}
+
+.img_1 img{
+
+    position: absolute;
+    left: 690px;
+    bottom: 320px;
+}
+
+
+
+.slock_2{
+
+    max-width: 530px;
+    min-height: 240px;
+    background-color: aqua;
+    border-radius:   50px 50px 50px 50px;
+    float: right;
+}
+
+.slock_2 h1 {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slock_2  p {
+
+    display: flex;
+    text-align: center;
+}
+
+.img_2 img{
+
+    max-width: 256px;
+    min-height: 256px;
+    position: relative;
+    left: 200px;
+    
+}

@@ -1,0 +1,87 @@
+/* Estilos Generales */
+body {
+    background: linear-gradient(to right, #00a8cc, #70e1f5);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 22px;
+    color: #004d66;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f0f9ff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #0088a9;
+}
+
+.input-group i {
+    color: #0088a9;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Botón de Enviar */
+button {
+    background-color: #00a8cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0088a9;
+}
+
+/* Enlace */
+p a {
+    color: #0088a9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}

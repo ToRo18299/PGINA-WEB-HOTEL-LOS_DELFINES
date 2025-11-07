@@ -1,0 +1,96 @@
+/* Colores del Hotel Los Delfines */
+:root {
+    --color-primario: #004d66;
+    --color-secundario: #0088a9;
+    --color-texto: #ffffff;
+    --color-tarjeta: #ffffff;
+    --color-hover: #006680;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: var(--color-secundario);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Contenedor de habitaciones */
+#habitaciones-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas de habitaciones */
+.habitacion {
+    background: var(--color-tarjeta);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.habitacion:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen de la habitación */
+.habitacion-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Títulos de habitaciones */
+.habitacion h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Descripción */
+.habitacion p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Precio y estado */
+.habitacion p strong {
+    font-weight: bold;
+    color: var(--color-secundario);
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--color-secundario);
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
